@@ -3,7 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://toantran292.github.io/me/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
