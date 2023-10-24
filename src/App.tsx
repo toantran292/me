@@ -3,6 +3,8 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
+// import AListLib from '../public/source/AListLib.c';
+
 function App() {
   const [count, setCount] = useState(0)
 
@@ -22,7 +24,7 @@ function App() {
           count is {count}
         </button>
         <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
+          <a href="/source/AListLib.c" download> Click here to download</a>
         </p>
       </div>
       <p className="read-the-docs">
