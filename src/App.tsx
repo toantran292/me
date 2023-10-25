@@ -24,7 +24,7 @@ function App() {
           count is {count}
         </button>
         <p>
-          <a href="/source/AListLib.c" download> Click here to download</a>
+          <a href="/source/lib.zip" download> Click here to download :33</a>
         </p>
       </div>
       <p className="read-the-docs">
