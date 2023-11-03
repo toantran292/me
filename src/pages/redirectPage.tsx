@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useLayoutEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import ErrorPage from './errorPage';
 const DATA = {
@@ -9,7 +9,7 @@ const RedirectPage = () => {
     const { redirectId } = useParams();
     console.log(redirectId)
 
-    useEffect(() => {
+    useLayoutEffect(() => {
         // Neu khong ton tai link thi cut
         const url = DATA[redirectId as keyof typeof DATA];
         if (!url) return;
