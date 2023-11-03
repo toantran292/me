@@ -2,7 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import { Routes, Route, Navigate } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import RedirectPage from './pages/redirectPage';
 import ErrorPage from './pages/errorPage';
 
@@ -41,7 +41,6 @@ function App() {
       <Route path='/redirect'>
         <Route path=':redirectId' element={<RedirectPage />} />
       </Route>
-      {/* <Route path="/404" element={<ErrorPage />} /> */}
       <Route path="*" element={<ErrorPage />} />
     </Routes>
   )
